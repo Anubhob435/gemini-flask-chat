@@ -1,0 +1,106 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0 auto 40px;
+    background-color: #101626;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-weight: 600;
+    color: #ffdd57;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  a {
+    color: #ffdd57;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .list-group-item {
+    border: none;
+  }
+
+  .list-group-item-action:hover {
+    background-color: #3a4556;
+    transition: background-color 0.3s ease;
+  }
+
+  #chat-input {
+    background-color: #c4cbd6;
+    border: none;
+    color: #000;
+    border-radius: 30px 0 0 30px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  #chat-input:focus {
+    border: 2px solid #ffdd57;
+  }
+
+  #gpt-button {
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 0 30px 30px 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #gpt-button:hover {
+    background-color: #0c5bb4;
+  }
+
+  .fixed-bottom {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .skeleton1,
+  .skeleton2,
+  .skeleton3 {
+    min-height: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    background-position: left -40px top 0;
+    animation: shine 1s ease infinite;
+  }
+
+  .skeleton1 {
+    background-color: #3A4556;
+    width: 70%;
+  }
+
+  .skeleton2 {
+    background-color: #4E5C6D;
+    width: 50%;
+  }
+
+  .skeleton3 {
+    background-color: #4E5C6D;
+    width: 60%;
+  }
+
+  @keyframes shine {
+    to {
+      background-position: right -40px top 0;
+    }
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #757575;
+    font-size: 0.9rem;
+  }
